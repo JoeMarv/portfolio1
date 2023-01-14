@@ -3,7 +3,7 @@
 :root {
   --clr-black: hsl(0, 0%, 8%);
   --clr-grey: hsl(0, 0%, 14%);
-  --clr-green: hsl(153, 71%, 59%);
+  --clr-green: hsl(198, 29%, 45%);
   --clr-white: hsl(0, 0%, 100%);
   --clr-light-grey: hsl(0, 0%, 85%);
   --clr-red: hsl(7, 100%, 68%);
@@ -53,7 +53,7 @@ header {
 .social {
   height: 10vw;
   width: 10vw;
-  margin: 0vw 2vw;
+  margin: 0vw 1.5vw;
   background-color: inherit;
   border: none;
 }
