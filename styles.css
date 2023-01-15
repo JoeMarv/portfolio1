@@ -43,6 +43,11 @@ header {
   margin: 4vw 0vw
 }
 
+.logo img {
+  width: 40vw;
+  height: auto;
+}
+
 .socials {
   margin: 2vw 0vw;
   display: flex;
