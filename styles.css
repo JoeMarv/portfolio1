@@ -3,7 +3,7 @@
 :root {
   --clr-black: hsl(0, 0%, 8%);
   --clr-grey: hsl(0, 0%, 14%);
-  --clr-green: hsl(198, 29%, 45%);
+  --clr-blue: hsl(198, 91%, 71%);
   --clr-white: hsl(0, 0%, 100%);
   --clr-light-grey: hsl(0, 0%, 85%);
   --clr-red: hsl(7, 100%, 68%);
@@ -28,12 +28,13 @@ body {
   color: var(--clr-white);
   font-family: var(--ff);
   justify-content: center;
-  margin: 4vw;
+  margin: 4vw 0vw;
 }
 
 header {
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 
 .logo {
@@ -65,4 +66,69 @@ header {
 
 .whatsapp {
   filter: invert(1);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(assets/pattern-circle.svg);
+  background-repeat: no-repeat;
+  background-position: 81vw 37vw;
+  text-align: center;
+}
+
+.pfp {
+  display: flex;
+  justify-content: center;
+  background-image: url(assets/pattern-rings.svg);
+  background-repeat: no-repeat;
+  background-position: -90vw 0vw;
+
+}
+
+.pfp img {
+  width: 60vw;
+  height: auto;
+  margin-top: -34vw;
+  z-index: 1;
+}
+
+.intro {
+  margin: 8vw 0vw 4vw 0vw;
+}
+
+.profile h1 {
+  font-size: 2em;
+  font-weight: 500;
+  margin: 0vw;
+}
+
+.name {
+  border-bottom: 3px solid var(--clr-blue);
+}
+
+.intro-body {
+  margin: 4vw;
+}
+
+.intro-body span {
+  font-weight: 400;
+  color: var(--clr-light-grey);
+  line-height: 1.6;
+}
+
+.contact-me {
+  color: var(--clr-white);
+  background-color: inherit;
+  padding: 3vw 0vw;
+  font-size: 1.2em;
+  font-family: var(--ff);
+  justify-content: center;
+  letter-spacing: 0.5vw;
+  font-weight: 400;
+  border: none;
+  border-bottom: 2px solid var(--clr-blue);
+  margin: 2vw 0vw;
 }
