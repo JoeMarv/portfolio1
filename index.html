@@ -7,6 +7,14 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="shortcut icon" href="assets/j.png" type="image/x-icon">
   <title>Joel Adewale</title>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("5Sy94pY93Yedi46uh");
+    })();
+  </script>
 </head>
 <body>
   <header class="header">
@@ -44,21 +52,110 @@
     </button>
   </section>
 
+  <div class="experience-and-projects">
+    <section class="experience">
+      <div class="skill">
+        <h1>HTML</h1>
+        <div class="level">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+        </div>
+      </div>
+    
+      <div class="skill">
+        <h1>CSS</h1>
+        <div class="level">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+        </div>
+      </div>
+    
+      <div class="skill">
+        <h1>Javascript</h1>
+        <div class="level">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+        </div>
+      </div>
+    
+      <div class="skill">
+        <h1>Accessibility</h1>
+        <div class="level">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+        </div>
+      </div>
+    
+      <div class="skill">
+        <h1>React</h1>
+        <div class="level">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+        </div>
+      </div>
+    
+      <div class="skill">
+        <h1>Sass</h1>
+        <div class="level">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+          <img class="star" src="assets/star.svg" alt="star">
+        </div>
+      </div>
+    </section>
+    
+    
+    <section class="projects">
+      <div class="projects-header">
+        <h1>Projects</h1>
+        <button class="contact-me project-contact">
+          <span>CONTACT ME</span>
+        </button>
+      </div>
 
-  <section class="experience">
+      <div class="projects-content">
 
-  </section>
-
-
-  <section class="projects">
-
-  </section>
+      </div>
+    </section>
+  </div>
 
 
-  <section class="contact">
+  <footer class="footer">
+    <section class="contact">
+      <div class="contact-info">
+        <h1 class="contact-info-header">Contact</h1>
+        <span class="contact-info-body">
+          I would love to hear about your project and how I could help. Please fill in the form,
+          and I'll get back to you as soon as possible.
+        </span>
+      </div>
 
-  </section>
+      <form class="contact-form">
+        <input type="text" placeholder="NAME" name="" id="name" required>
+        <input type="email" placeholder="EMAIL" name="" id="email" required>
+        <textarea placeholder="MESSAGE" rows="4" name="" id="message" required></textarea>
 
+        <button class="send-button" onclick="sendMail()">SEND MESSAGE</button>
+      </form>
+    </section>
+  </footer>
+
+
+  <!-- <button class="top-button">
+
+  </button> -->
 
   <script src="app.js"></script>
 </body>

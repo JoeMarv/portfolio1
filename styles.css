@@ -59,9 +59,15 @@ header {
 .social {
   height: 10vw;
   width: 10vw;
-  margin: 0vw 1.5vw;
+  margin: 0vw 1.25vw;
   background-color: inherit;
   border: none;
+  padding: 0vw;
+}
+
+.social img {
+  width: 8vw;
+  height: auto
 }
 
 .whatsapp {
@@ -132,4 +138,136 @@ header {
   border: none;
   border-bottom: 2px solid var(--clr-blue);
   margin: 2vw 0vw;
+}
+
+.experience-and-projects {
+  background-image: url(assets/pattern-rings.svg);
+  background-repeat: no-repeat;
+  background-position: 50vw 210vw;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 8vw 4vw;
+  text-align: center;
+  border-top: 2px solid var(--clr-white);
+  border-bottom: 2px solid var(--clr-white);
+  padding: 8vw 0vw 12vw 0vw;
+}
+
+.skill {
+  margin: 4vw 0vw;
+}
+
+.skill h1 {
+  font-size: 2em;
+  margin: 4vw 0vw;
+}
+
+.level {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.star {
+  filter: invert(1) brightness(0.7);
+  height: 6vw;
+  width: 6vw;
+  margin: 0vw 0.5vw;
+}
+
+.projects-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16vw 4vw;
+}
+
+.projects-header h1 {
+  font-size: 2.4em;
+  margin: 2vw 0vw;
+}
+
+.project-contact {
+  color: var(--clr-light-grey);
+  padding: 1vw 0vw 2vw 0vw;
+  font-size: 1em;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--clr-grey);
+  background-image: url(assets/pattern-rings.svg);
+  background-repeat: no-repeat;
+  background-position: -90vw 125vw;
+}
+
+.contact {
+  margin: 16vw 4vw;
+}
+
+
+.contact-info {
+  text-align: center;
+}
+
+.contact-info-header {
+  font-size: 3em;
+  margin: 4vw;
+}
+
+.contact-info-body {
+  font-weight: 400;
+  color: var(--clr-light-grey);
+  line-height: 1.6;
+}
+
+.contact-form {
+  margin: 8vw 0vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  font-size: 1em;
+  color: var(--clr-light-grey);
+  font-family: var(--ff);
+  padding: 4vw 6vw;
+  margin: 2vw 0vw;
+  border: none;
+  background-color: inherit;
+  border-bottom: 1.5px solid var(--clr-white);
+  width: 80vw;
+}
+
+textarea {
+  font-size: 1em;
+  color: var(--clr-light-grey);
+  font-family: var(--ff);
+  padding: 4vw 6vw;
+  margin: 2vw 0vw;
+  border: none;
+  background-color: inherit;
+  border-bottom: 1.5px solid var(--clr-white);
+  width: 80vw;
+}
+
+.send-button {
+  color: var(--clr-white);
+  background-color: inherit;
+  padding: 3vw 0vw;
+  font-size: 1em;
+  font-family: var(--ff);
+  justify-content: center;
+  letter-spacing: 0.5vw;
+  font-weight: 400;
+  border: none;
+  border-bottom: 2px solid var(--clr-blue);
+  margin: 2vw 0vw;
+  align-self: flex-end;
 }

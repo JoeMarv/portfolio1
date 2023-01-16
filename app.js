@@ -24,3 +24,28 @@ whatsapp.addEventListener('click', function() {
 twitter.addEventListener('click', function() {
     window.location = "https://www.twitter.com/joemarv_"
 })
+
+
+//EMAIL SEND
+function sendMail(){
+    var params = {
+        name: document.getElementById('name').value,
+        name: document.getElementById('email').value,
+        message: document.getElementById('message').value
+    }
+
+    const serviceID = "service_jnahg5p"
+    const templateID = "template_s83gbrq"
+
+    emailjs
+    .send(serviceID,templateID,params)
+    .then((res) => {
+            document.getElementById('name').value = ''
+            document.getElementById('email').value = ''
+            document.getElementById('message').value = ''
+            console.log(res)
+            alert('your message was sent successfully')
+        })
+    .catch((err) => console.log(err))
+}
+
