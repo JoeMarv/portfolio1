@@ -102,6 +102,166 @@ const pages = [
         language3: 'javascript',
         project: 'https://joemarv.github.io/base-apparel/',
         code: 'https://www.github.com/JoeMarv/base-apparel/'
+    },
+    {
+        id: 3,
+        image: 'assets/card-desktop.jpg',
+        title: 'Card Details Form',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/card/',
+        code: 'https://www.github.com/JoeMarv/card/'
+    },
+    {
+        id: 4,
+        image: 'assets/chat-desktop.jpg',
+        title: 'Chat App Interface',
+        language1: 'html',
+        language2: 'css',
+        language3: '',
+        project: 'https://joemarv.github.io/chat-app/',
+        code: 'https://www.github.com/JoeMarv/chat-app/'
+    },
+    {
+        id: 5,
+        image: 'assets/ecommerce-desktop.jpg',
+        title: 'E-Commerce Product Page',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/e-commerce/',
+        code: 'https://www.github.com/JoeMarv/e-commerce/'
+    },    
+    {
+        id: 6,
+        image: 'assets/expenses-desktop.jpg',
+        title: 'Expenses Chart Component',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/expenses-chart/',
+        code: 'https://www.github.com/JoeMarv/expenses-chart/'
+    },
+    {
+        id: 7,
+        image: 'assets/faq-desktop.jpg',
+        title: 'FAQ Accordion Card',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/faq/',
+        code: 'https://www.github.com/JoeMarv/faq/'
+    },  
+    {
+        id: 8,
+        image: 'assets/fylo-desktop.jpg',
+        title: 'Fylo Landing Page',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/Projects/',
+        code: 'https://www.github.com/JoeMarv/Projects/'
+    },  
+    {
+        id: 9,
+        image: 'assets/huddle-desktop.jpg',
+        title: 'Huddle Landing Page',
+        language1: 'html',
+        language2: 'css',
+        language3: '',
+        project: 'https://joemarv.github.io/Landing-Page/',
+        code: 'https://www.github.com/JoeMarv/Landing-Page/'
+    },  
+    {
+        id: 10,
+        image: 'assets/rating-desktop.jpg',
+        title: 'Interactive Rating Component',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/rating/',
+        code: 'https://www.github.com/JoeMarv/rating/'
+    },  
+    {
+        id: 11,
+        image: 'assets/intro-desktop.jpg',
+        title: 'Intro Component',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/intro-component/',
+        code: 'https://www.github.com/JoeMarv/intro-component/'
+    },  
+    {
+        id: 12,
+        image: 'assets/news-desktop.jpg',
+        title: 'News Homepage',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/news/',
+        code: 'https://www.github.com/JoeMarv/news/'
+    },  
+    {
+        id: 13,
+        image: 'assets/nft-desktop.jpg',
+        title: 'NFT Preview Card',
+        language1: 'html',
+        language2: 'css',
+        language3: '',
+        project: 'https://joemarv.github.io/preview-card/',
+        code: 'https://www.github.com/JoeMarv/preview-card/'
+    },  
+    {
+        id: 14,
+        image: 'assets/ping-desktop.jpg',
+        title: 'Ping Coming Soon Page',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/ping/',
+        code: 'https://www.github.com/JoeMarv/ping/'
+    },  
+    {
+        id: 15,
+        image: 'assets/snap-desktop.jpg',
+        title: 'Snap Landing Page',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/snap/',
+        code: 'https://www.github.com/JoeMarv/snap/'
+    },  
+    {
+        id: 16,
+        image: 'assets/space-desktop.jpg',
+        title: 'Space Travel Website',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/space/',
+        code: 'https://www.github.com/JoeMarv/space/'
+    },  
+    {
+        id: 17,
+        image: 'assets/sunnyside-desktop.jpg',
+        title: 'Sunnyside Agency Landing Page',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/sunnyside/',
+        code: 'https://www.github.com/JoeMarv/sunnyside/'
+    },  
+    {
+        id: 18,
+        image: 'assets/time-desktop.jpg',
+        title: 'Time Tracking Dashboard',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/time/',
+        code: 'https://www.github.com/JoeMarv/time/'
     }
 ];
 
