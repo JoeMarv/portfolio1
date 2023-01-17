@@ -81,5 +81,67 @@ topBtn.addEventListener('click', function() {
 })
 
 
-// CONTACT ME BUTTON 
-// const contactBtns = document.querySelectorAll('.contact-me')
+// PROJECTS
+const pages = [
+    {
+        id: 1,
+        image: 'assets/article-desktop.jpg',
+        title: 'Article Preview Component',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/article/',
+        code: 'https://www.github.com/JoeMarv/article/'
+    },
+    {
+        id: 2,
+        image: 'assets/base-desktop.jpg',
+        title: 'Base Apparel Coming Soon',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/base-apparel/',
+        code: 'https://www.github.com/JoeMarv/base-apparel/'
+    }
+];
+
+
+const article = document.querySelector('.projects-content')
+
+
+window.addEventListener('DOMContentLoaded', function() {
+    displayMenuItems(pages)
+})
+
+
+function displayMenuItems(menuItems) {
+    let displayMenu = menuItems.map(function(item) {
+        return `
+            <article class="project">
+                <div class="project-image">
+                    <img src="${item.image}" alt="project-image">
+                </div>
+
+                <div class="project-text">
+                    <h1>${item.title}</h1>
+
+                    <div class="languages">
+                    <span class="language1">${item.language1}</span>
+                    <span class="language2">${item.language2}</span>
+                    <span class="language3">${item.language3}</span>
+                    </div>
+                </div>
+                
+
+                <div class="project-buttons">
+                    <a href="${item.project}"><button class="project-button">view project</button></a>
+                    <a href="${item.code}"><button class="code-button">view code</button></a>
+                </div>
+            </article>
+        `
+    })
+
+    displayMenu = displayMenu.join('')
+
+    article.innerHTML = displayMenu
+}
