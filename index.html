@@ -47,9 +47,11 @@
         web apps that users love.</span>
     </div>
 
-    <button class="contact-me">
-      <span>CONTACT ME</span>
-    </button>
+    <a href="#footer">
+      <button class="contact-me">
+        <span>CONTACT ME</span>
+      </button>
+    </a>
   </section>
 
   <div class="experience-and-projects">
@@ -120,9 +122,12 @@
     <section class="projects">
       <div class="projects-header">
         <h1>Projects</h1>
-        <button class="contact-me project-contact">
-          <span>CONTACT ME</span>
-        </button>
+
+        <a href="#footer">
+          <button class="contact-me project-contact">
+            <span>CONTACT ME</span>
+          </button>
+        </a>
       </div>
 
       <div class="projects-content">
@@ -132,7 +137,7 @@
   </div>
 
 
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <section class="contact">
       <div class="contact-info">
         <h1 class="contact-info-header">Contact</h1>
@@ -150,12 +155,26 @@
         <button class="send-button" onclick="sendMail()">SEND MESSAGE</button>
       </form>
     </section>
+
+    <header class="header bottom">
+      <div class="logo">
+        <img src="assets/joel logo.png" alt="joel logo">
+      </div>
+    
+      <div class="socials">
+        <button class="social gbtn"><img src="assets/icon-github.svg" alt="icon-github"></button>
+        <button class="social fbtn"><img src="assets/icon-frontend-mentor.svg" alt="icon-frontend-mentor"></button>
+        <button class="social lbtn"><img src="assets/icon-linkedin.svg" alt="icon-github"></button>
+        <button class="social wbtn"><img class="whatsapp" src="assets/logo-whatsapp.svg" alt="icon-whatsapp"></button>
+        <button class="social tbtn"><img src="assets/icon-twitter.svg" alt="icon-twitter"></button>
+      </div>
+    </header>
   </footer>
 
 
-  <!-- <button class="top-button">
-
-  </button> -->
+  <button class="top-button">
+    <img src="assets/caret-up-outline.svg" alt="top-button">
+  </button>
 
   <script src="app.js"></script>
 </body>

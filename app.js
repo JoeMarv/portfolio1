@@ -1,28 +1,39 @@
 // SOCIAL BUTTONS
-const github = document.querySelector('.gbtn')
-const frontend = document.querySelector('.fbtn')
-const linkedin = document.querySelector('.lbtn')
-const whatsapp = document.querySelector('.wbtn')
-const twitter = document.querySelector('.tbtn')
+const github = document.querySelectorAll('.gbtn')
+const frontend = document.querySelectorAll('.fbtn')
+const linkedin = document.querySelectorAll('.lbtn')
+const whatsapp = document.querySelectorAll('.wbtn')
+const twitter = document.querySelectorAll('.tbtn')
 
-github.addEventListener('click', function() {
-    window.location = "https://www.github.com/JoeMarv"
+
+github.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        window.location = "https://www.github.com/JoeMarv"
+    })
 })
 
-frontend.addEventListener('click', function() {
-    window.location = "https://www.frontendmentor.io/profile/JoeMarv"
+frontend.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        window.location = "https://www.frontendmentor.io/profile/JoeMarv"
+    })
 })
 
-linkedin.addEventListener('click', function() {
-    window.location = "https://www.linkedin.com/in/joel-adewale-68968216a/"
+linkedin.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        window.location = "https://www.linkedin.com/in/joel-adewale-68968216a/"
+    })
 })
 
-whatsapp.addEventListener('click', function() {
-    window.location = "https://api.whatsapp.com/send?phone=2348109805670"
+whatsapp.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        window.location = "https://api.whatsapp.com/send?phone=2348109805670"
+    })
 })
 
-twitter.addEventListener('click', function() {
-    window.location = "https://www.twitter.com/joemarv_"
+twitter.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+        window.location = "https://www.twitter.com/joemarv_"
+    })
 })
 
 
@@ -49,3 +60,26 @@ function sendMail(){
     .catch((err) => console.log(err))
 }
 
+
+// TOP BUTTON
+const topBtn = document.querySelector ('.top-button')
+
+window.addEventListener('scroll', function() {
+    const scrollHeight = window.pageYOffset
+
+    if (scrollHeight > 200) {
+        topBtn.classList.add('show-btn')
+    } 
+    else {
+        topBtn.classList.remove('show-btn')
+    }
+})
+
+topBtn.addEventListener('click', function() {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+})
+
+
+// CONTACT ME BUTTON 
+// const contactBtns = document.querySelectorAll('.contact-me')
