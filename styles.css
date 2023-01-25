@@ -598,7 +598,7 @@ textarea {
     .footer {
       justify-content: center;
       background-repeat: no-repeat;
-      background-position: 0vw 15vw;
+      background-position: -48vw 65vw;
     }
   
     .contact {
