@@ -20,6 +20,8 @@ html {
     scroll-behavior: smooth;
 }
 
+
+/* MOBILE VIEW */
 body {
   background-color: var(--clr-black);
   display: flex;
@@ -107,7 +109,7 @@ header {
 .profile h1 {
   font-size: 2em;
   font-weight: 500;
-  margin: 0vw;
+  margin: 0vw 12vw;
 }
 
 .name {
@@ -380,4 +382,302 @@ textarea {
   100% {
     transform: scale(1)
   }
+}
+
+
+/* TABLET VIEW */
+@media screen and (min-width: 768px) {
+  body {
+      margin: 2vw 0vw 0vw 0vw;
+    }
+  
+    header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      z-index: 2;
+    }
+  
+    .logo {
+      text-align: center;
+      margin: 2vw 0vw 0vw 3vw
+    }
+  
+    .logo img {
+      width: 16vw;
+    }
+  
+    .socials {
+      margin: 2vw 3vw 0vw 0vw;
+    }
+  
+    .social {
+      height: 3vw;
+      width: 3vw;
+      margin: 0vw 1vw;
+    }
+  
+    .social img {
+      width: 3vw;
+    }
+  
+    .profile {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
+      background-position: -30vw 3vw;
+      text-align: left;
+      background-image: url(assets/pattern-rings.svg);
+    }
+  
+    .pfp {
+      display: flex;
+      justify-content: flex-end;
+      background-image: url(assets/pattern-circle.svg);
+      background-repeat: no-repeat;
+      background-position: 30vw 30vw;
+      width: 45vw;  
+    }
+  
+    .pfp img {
+      width: 45vw;
+      height: 80vw;
+      margin-top: -23vw;
+      z-index: 0;
+    }
+
+    .profile-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 0vw 0vw 0vw 3vw;
+    }
+  
+    .intro {
+      margin: 6vw 0vw 2vw 0vw;
+    }
+  
+    .profile h1 {
+      font-size: 3em;
+      font-weight: 500;
+      margin: 0vw;
+    }
+  
+    .name {
+      border-bottom: 4px solid var(--clr-blue);
+    }
+  
+    .intro-body {
+      margin: 4vw 0vw;
+    }
+  
+    .intro-body span {
+      font-size: 1.2em;
+      font-weight: 400;
+      color: var(--clr-light-grey);
+      line-height: 1.6;
+    }
+  
+    .contact-me {
+      padding: 1vw 0vw;
+      font-size: 1.2em;
+      letter-spacing: 0.25vw;
+      border-bottom: 2px solid var(--clr-blue);
+      margin: 0vw 0vw;
+    }
+  
+    .experience-and-projects {
+      background-image: url(assets/pattern-rings.svg);
+      background-repeat: no-repeat;
+      background-position: 75vw 35vw;
+    }
+  
+    .experience {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-flow: row;
+      justify-items: center;
+      gap: 4vw 3vw;
+      margin: 6vw 3vw;
+      border-top: 1px solid var(--clr-white);
+      border-bottom: none;
+      padding: 4vw 0vw 0vw 0vw;
+    }
+  
+    .skill {
+      margin: 0vw;
+    }
+  
+    .skill h1 {
+      font-size: 2em;
+      margin: 1vw 0vw;
+    }
+  
+    .star {
+      height: 2vw;
+      width: 2vw;
+      margin: 0vw 0.5vw;
+    }
+  
+    .projects {
+      margin: 0vw 0vw 8vw 0vw
+    }
+  
+    .projects-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10vw 3vw 4vw 3vw;
+    }
+  
+    .projects-header h1 {
+      font-size: 3em;
+      margin: 0vw;
+      font-weight: 500;
+    }
+  
+    .project-contact {
+      padding: 1vw 0vw;
+      font-size: 1em;
+    }
+
+    .projects-content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-flow: row;
+      justify-items: center;
+      gap: 4vw 3vw;
+      margin: 0vw 3vw;
+    }
+  
+    .project {
+      display: flex;
+      flex-direction: column;
+      margin: 0vw;
+      text-transform: uppercase;
+    }
+  
+    .project-image img {
+      width: 45.5vw;
+      height: 30vw;
+      object-fit: cover;
+    }
+  
+    .project-text {
+      margin: 2vw 0vw;
+    }
+  
+    .project-text h1 {
+      font-size: 1.3em;
+      font-weight: 400;
+      margin: 0vw 0vw 1.5vw 0vw;
+    }
+  
+    .language2,
+    .language3 {
+      margin-left: 3vw;
+    }
+  
+    .project-button {
+      padding: 1.5vw 0vw;
+      font-size: 1em;
+      letter-spacing: 0.2vw;
+      border-bottom: 2px solid var(--clr-blue);
+      margin: 0vw;
+    }
+  
+    .code-button {
+      padding: 1.5vw 0vw;
+      font-size: 1em;
+      letter-spacing: 0.2vw;
+      margin: 0vw 0vw 0vw 3vw;
+    }
+  
+    .footer {
+      justify-content: center;
+      background-repeat: no-repeat;
+      background-position: 0vw 15vw;
+    }
+  
+    .contact {
+      margin: 6vw 20vw;
+      border-bottom: none;
+      padding-bottom: 0vw;
+    }
+  
+  
+    .contact-info {
+      text-align: center;
+    }
+  
+    .contact-info-header {
+      font-size: 3.5em;
+      margin: 2vw 0vw;
+    }
+  
+    .contact-info-body {
+    }
+  
+    .contact-form {
+      margin: 3vw 0vw;
+    }
+  
+    input {
+      font-size: 1em;
+      padding: 2vw 3vw;
+      margin: 1vw 0vw;
+      border-bottom: 1px solid var(--clr-white);
+      width: 54vw;
+    }
+  
+    textarea {
+      font-size: 1em;
+      padding: 1.5vw 3vw;
+      margin: 1vw 0vw;
+      border-bottom: 1px solid var(--clr-white);
+      width: 54vw;
+    }
+  
+    .send-button {
+      padding: 1.5vw 0vw;
+      font-size: 1em;
+      letter-spacing: 0.25vw;
+      border-bottom: 2px solid var(--clr-blue);
+      margin: 2vw 0vw;
+    }
+  
+    .bottom {
+      margin: 0vw 3vw;
+      padding: 3vw 0vw;
+      border-top: 1px solid var(--clr-white);
+    }
+
+    .bottom .socials, .bottom .logo {
+      margin: 0vw;
+    }
+  
+    .top-button {
+      position: fixed;
+      width: 2rem;
+      height: 2rem;
+      bottom: 3rem;
+      right: 2rem;
+      border: none;
+      border-radius: 0.6rem;
+      background: var(--clr-light-grey);
+      display: grid;
+      place-items: center;
+      animation: bounce 2s ease-in-out infinite;
+      box-shadow: 0vw 1vw 2vw rgba(0, 0, 0, 0.2);
+      visibility: hidden;
+      z-index: -100;
+      transition: var(--transition);
+      display: none;
+    }
+  
+    .show-btn {
+      display: none;
+    }
 }
