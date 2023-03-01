@@ -849,6 +849,7 @@ textarea {
     flex-direction: column;
     margin: 0vw;
     text-transform: uppercase;
+    cursor: pointer;
   }
 
   .project-image img {
@@ -882,11 +883,11 @@ textarea {
     justify-content: center;
     align-items: center;
     backdrop-filter: brightness(0.3);
-    display: none
+    opacity: 0;
   }
 
   .project:hover .project-buttons {
-    display: flex;
+    opacity: 1;
     cursor: pointer;
     transition: var(--transition);
   }
