@@ -164,6 +164,16 @@ const pages = [
         code: 'https://www.github.com/JoeMarv/Projects/'
     },  
     {
+        id: 19,
+        image: 'assets/getlinked-desktop.jpg',
+        title: 'GetLinked Landing Page',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/getlinked/',
+        code: 'https://www.github.com/JoeMarv/getlinked/'
+    },
+    {
         id: 9,
         image: 'assets/huddle-desktop.jpg',
         title: 'Huddle Landing Page',

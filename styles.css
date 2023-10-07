@@ -12,8 +12,8 @@
 }
 
 * {
-    -webkit-tap-highlight-color: transparent;
-    outline: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
 }
 
 html {
