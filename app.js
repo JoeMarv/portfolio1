@@ -232,7 +232,17 @@ const pages = [
         language3: 'javascript',
         project: 'https://joemarv.github.io/ping/',
         code: 'https://www.github.com/JoeMarv/ping/'
-    },  
+    }, 
+    {
+        id: 20,
+        image: 'assets/shopify-desktop.jpg',
+        title: 'Shopify Admin Page',
+        language1: 'html',
+        language2: 'css',
+        language3: 'javascript',
+        project: 'https://joemarv.github.io/admin/',
+        code: 'https://www.github.com/JoeMarv/admin/'
+    },
     {
         id: 15,
         image: 'assets/snap-desktop.jpg',
